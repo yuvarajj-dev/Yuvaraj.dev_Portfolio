@@ -28,12 +28,14 @@ export default function Header() {
           <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
-            <li><a href="#">Portfolio</a></li>
             <li><a href="#">Projects</a></li>
             <li><a href="#">Contact</a></li>
           </ul>
-        </div>   
+            <img src="./Assest/Down arrow icon/download-svgrepo-com.svg" className='arrow' alt="arrow" />
+        </div>
+
       </div>
+
     </>
   )
 }
