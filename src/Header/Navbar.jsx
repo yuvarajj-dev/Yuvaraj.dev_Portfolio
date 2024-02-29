@@ -2,21 +2,30 @@ import React from 'react'
 import "./Navbar.css"
 
 export default function Navbar() {
-    return (
-        <>
-            <div className=''>
-                <nav className="bg-white border-gray-200 dark:bg-blue-100">
-                    <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
-                        <h1 className=' head text-black font-bold'>Yuvaraj.dev</h1>
-                        <div className="flex items-center space-x-6 rtl:space-x-reverse">
-                            <button className='button' >
-                                <svg className="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" /></svg>
-                                <span>Resume</span>
-                            </button>
-                        </div>
-                    </div>
-                </nav>
-            </div>
-        </>
-    )
+  return (
+    <>
+      <header>
+        <nav className="bg-white fixed w-full z-20 top-0 left-0 border-b border-gray-200 shadow-black dark:border-gray-600">
+          <ul className="navigation max-w-[90vw] flex flex-wrap justify-between items-center relative mx-auto py-8">
+            <a className="logo" href="#">
+              <div></div>
+            </a>
+            <input type="checkbox" id="check" />
+
+            <span className="menu flex [&>li]:pl-8 [&>li>a]:text-center [&>li>a]:relative [&>li>a]:transition [&>li>a]:duration-200 [&>li>a]:ease-in-out [&>li>a]:font-medium [&>li>a]:text-lg">
+              <li><a className='nav-items' href="#">Home</a></li>
+              <li><a className='nav-items' href="#">About</a></li>
+              <li><a className='nav-items' href="#">Projects</a></li>
+              <li><a className='nav-items' href="#">Resources</a></li>
+              <li><a className='nav-items' href="#">Contact</a></li>
+
+              <label for="check" className="close-menu">X</label>
+            </span>
+
+            <label for="check" className="open-menu ">Menu</label>
+          </ul>
+        </nav>
+      </header>
+    </>
+  )
 }
