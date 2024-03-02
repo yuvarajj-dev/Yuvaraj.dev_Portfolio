@@ -20,10 +20,10 @@ export default function Navbar() {
               <li><a className='nav-items' href="#">Resources</a></li>
               <li><a className='nav-items' href="#">Contact</a></li>
 
-              <label for="check" className="close-menu">X</label>
+              <label htmlFor="check" className="close-menu">X</label>
             </span>
 
-            <label for="check" className="open-menu ">Menu</label>
+            <label htmlFor="check" className="open-menu ">Menu</label>
           </ul>
         </nav>
       </header>

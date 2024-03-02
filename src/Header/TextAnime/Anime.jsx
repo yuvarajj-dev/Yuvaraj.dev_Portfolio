@@ -21,8 +21,6 @@ const AppContainer = styled('div', {
 
 const Container = styled('div', {
     display: 'flex',
-    gap: 10,
-   
 })
 
 const Box = styled('div', {
@@ -36,7 +34,7 @@ const Box = styled('div', {
         width: '250px',
         position: "unset"
     },
-    
+
 })
 
 const SharedStyles = {
@@ -49,17 +47,24 @@ const SharedStyles = {
     alignItems: 'center',
     fontFamily: 'Helvetica',
     fontWeight: 800,
-    fontSize : '30px',
+    fontSize: '30px',
     backfaceVisibility: 'hidden',
-    borderRadius: '50px', 
-    '@media (max-width: 957px)': {
+    borderRadius: '50px',
+    '@media (max-width: 1024px)': {
+        marginLeft: '10px',
+        marginTop: '4px',
+        fontSize: '20px',
+        height: "85%",
+        width: "80%",
+    },
+    '@media (max-width: 964px)': {
         marginLeft: '40px',
-        fontSize: '25px',
+        fontSize: '20px',
     },
     '@media (max-width: 648px)': {
         width: '150px',
         height: "80%",
-        fontSize:'19px',
+        fontSize: '19px',
         marginTop: '6px',
         marginLeft: '0px',
     },
