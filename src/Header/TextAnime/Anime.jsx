@@ -11,6 +11,9 @@ const AppContainer = styled('div', {
     justifyContent: 'center',
     alignItems: 'center',
 
+    '@media (max-width: 957px)': {
+        width: '60px',
+    },
     '@media (max-width: 648px)': {
         width: '100px',
     },
@@ -26,10 +29,14 @@ const Box = styled('div', {
     position: 'relative',
     height: 50,
     width: 300,
+    '@media (max-width: 957px)': {
+        width: '200px',
+    },
     '@media (max-width: 648px)': {
         width: '250px',
         position: "unset"
     },
+    
 })
 
 const SharedStyles = {
@@ -45,11 +52,16 @@ const SharedStyles = {
     fontSize : '30px',
     backfaceVisibility: 'hidden',
     borderRadius: '50px', 
+    '@media (max-width: 957px)': {
+        marginLeft: '40px',
+        fontSize: '25px',
+    },
     '@media (max-width: 648px)': {
         width: '150px',
         height: "80%",
-        fontSize:'15px',
-        marginTop: '6px'
+        fontSize:'19px',
+        marginTop: '6px',
+        marginLeft: '0px',
     },
 }
 
