@@ -15,7 +15,7 @@ const AppContainer = styled('div', {
         width: '60px',
     },
     '@media (max-width: 648px)': {
-        width: '100px',
+        width: '70px',
     },
 })
 
@@ -51,21 +51,20 @@ const SharedStyles = {
     backfaceVisibility: 'hidden',
     borderRadius: '50px',
     '@media (max-width: 1024px)': {
-        marginLeft: '10px',
         marginTop: '4px',
         fontSize: '20px',
         height: "85%",
         width: "80%",
     },
     '@media (max-width: 964px)': {
-        marginLeft: '40px',
+        marginLeft: '50px',
         fontSize: '20px',
     },
     '@media (max-width: 648px)': {
         width: '150px',
-        height: "80%",
-        fontSize: '19px',
-        marginTop: '6px',
+        height: "70%",
+        fontSize: '15px',
+        marginTop: '8px',
         marginLeft: '0px',
     },
 }
