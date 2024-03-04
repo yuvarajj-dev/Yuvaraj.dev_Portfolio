@@ -15,6 +15,7 @@
     position: absolute;
     top: 8px;
     right: 10px;
+    fill: #0692e9;
   }
 
   @media (width <= 600px){

@@ -1,6 +1,6 @@
-import React from 'react'
-import "./Navbar.css"
-import Anime from './TextAnime/Anime'
+import React from 'react';
+import "./Navbar.css";
+import Anime from './TextAnime/Anime';
 
 export default function Navbar() {
   return (
@@ -23,7 +23,7 @@ export default function Navbar() {
             </span>
 
             <label htmlFor="check" className="open-menu"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0,0,256,256">
-              <g fill="none" fillRule="nonzero" stroke="none" strokeWidth="1" strokeLinecap="butt" strokeLinejoin="miter" strokeMiterlimit="10" strokeDasharray="" strokeDashoffset="0" fontFamily="none" fontWeight="none" fontSize="none" textAnchor="none" style={{ mixBlendMode: 'normal' }}>
+              <g fill="none" fillRule="nonzero" stroke="none" strokeWidth="1" strokeLinecap="butt" strokeLinejoin="miter" strokeMiterlimit="10" strokeDasharray="" strokeDashoffset="0" fontFamily="none" fontWeight="none" fontSize="none" textAnchor="none" style={{ mixBlendMode: 'normal', fill: 'blue' }}>
                 <g transform="scale(4,4)">
                   <path d="M54,16.5c0,1.24 -0.5,2.37 -1.32,3.18c-0.81,0.82 -1.94,1.32 -3.18,1.32h-35c-2.49,0 -4.5,-2.01 -4.5,-4.5c0,-1.18 0.45,-2.26 1.21,-3.06c0.03,-0.04 0.07,-0.08 0.11,-0.12c0.81,-0.82 1.94,-1.32 3.18,-1.32h35c2.49,0 4.5,2.01 4.5,4.5z" fill="#139ce1"></path>
                   <path d="M36,12c0,2.76 -2.24,5 -5,5h-15c-1.38,0 -2.63,-0.56 -3.54,-1.46c-0.57,-0.58 -1.01,-1.3 -1.25,-2.1c0.03,-0.04 0.07,-0.08 0.11,-0.12c0.81,-0.82 1.94,-1.32 3.18,-1.32z" fill="#ffffff" opacity="0.3"></path>
