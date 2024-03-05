@@ -78,7 +78,7 @@ const Navbar = () => {
         >
           ✕
         </button>
-        <div className='text-center pt-36'>
+        <div className='text-center pt-10'>
           <a href="#" className="nav-items block">
             Home
           </a>
