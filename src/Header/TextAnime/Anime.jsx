@@ -32,7 +32,7 @@ const Box = styled('div', {
     },
     '@media (max-width: 648px)': {
         width: '250px',
-        position: "unset"
+        position: "unset",
     },
 
 })
@@ -62,7 +62,7 @@ const SharedStyles = {
     },
     '@media (max-width: 648px)': {
         width: '150px',
-        height: "70%",
+        height: "2.5rem",
         fontSize: '15px',
         marginTop: '8px',
         marginLeft: '0px',
@@ -84,7 +84,7 @@ const BackBox = styled(animated.div, {
 })
 
 const items = ["Yuvaraj.dev"]
-export default function () {
+export default function Anime() {
     const [trail, api] = useTrail(items.length, () => ({
         rotateX: 0,
     }))
