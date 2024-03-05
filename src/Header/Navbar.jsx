@@ -50,7 +50,7 @@ const Navbar = () => {
               About
             </a>
             <a href="#" className="nav-items">
-              Services
+              Project
             </a>
             <a href="#" className="nav-items">
               Contact
@@ -86,7 +86,7 @@ const Navbar = () => {
             About
           </a>
           <a href="#" className="nav-items  block">
-            Services
+            Project
           </a>
           <a href="#" className="nav-items  block">
             Contact

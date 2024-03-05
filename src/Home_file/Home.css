@@ -1,26 +1,8 @@
-
-.hero-text-section{
-    position: relative;
+.bg{
+    background-color: #f9f9f9;
 }
-.hero-text-section h1{
-    font-size: 50px;
-    font-weight: 600;
-}
-.hero-text-section  .hello-icon{
-    width: 60px;
-    height: 60px;
+.hand-img{
     position: absolute;
-    top: 79px;
-    left: 23rem;
-}
-.hero-text-section p{
-    font-size: 20px;
-}
-
-
-.hero-img{
-    width: 300px;
-    height: 350px;
-    border: 2px solid black;
-    border-radius: 50%;
+    top: 51%;
+    left: 42%;
 }
