@@ -62,7 +62,7 @@ const SharedStyles = {
     },
     '@media (max-width: 648px)': {
         width: '150px',
-        height: "2.5rem",
+        height: "3rem",
         fontSize: '15px',
         marginTop: '8px',
         marginLeft: '0px',

@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className=" navbar  lg:py-4 sm:py-5  px-5 sm:px-10">
+      <nav className=" navbar  lg:py-4 sm:py-4  px-5 sm:px-10">
         <div className="container mx-auto flex items-center justify-between">
           <div className='cursor-pointer'> <Anime/> </div>
 
@@ -69,7 +69,7 @@ const Navbar = () => {
 
 
       <div
-        className={`fixed inset-y-0 right-0 nav-res-div  w-64 p-4 z-50 transform transition-transform ease-in-out ${isOpen ? 'translate-x-0' : 'translate-x-full'
+        className={`fixed inset-y-0 right-0 nav-res-div  w-80 p-4 z-50 transform transition-transform ease-in-out ${isOpen ? 'translate-x-0' : 'translate-x-full'
           }`}
       >
         <button
@@ -78,7 +78,7 @@ const Navbar = () => {
         >
           ✕
         </button>
-        <div className='py-28 '>
+        <div className='text-center pt-36'>
           <a href="#" className="nav-items block">
             Home
           </a>

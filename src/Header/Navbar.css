@@ -56,11 +56,11 @@
         background-color: #19A7CE;
     }
     .nav-items {
-        padding: .5em 3.5em;
+        padding: .5em 50px;
         position: relative;
         text-decoration: none;
         font-size: 20px;
-        margin-top: 2rem;
+        margin-top: 4rem;
        
     }
 
@@ -76,7 +76,7 @@
 
     .nav-items::before {
         content: '';
-        right: 55px;
+        right: 30px;
         top: 0px;
         border-top: 3px solid darkorange;
         border-right: 3px solid #f4a40f;
@@ -85,8 +85,8 @@
 
     .nav-items:after {
         content: '';
-        left: 50px;
-        bottom: -10;
+        left: 30px;
+        bottom: 0;
         border-bottom: 3px solid darkorange;
         border-left: 3px solid #f4a40f;
         transform: translate(100%, -50%)
