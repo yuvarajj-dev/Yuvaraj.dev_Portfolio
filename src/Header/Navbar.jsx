@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className=" navbar  lg:py-4 sm:py-4  px-5 sm:px-10">
+      <nav className=" navbar  lg:py-4 sm:py-4  py-1 px-5 sm:px-10">
         <div className="container mx-auto flex items-center justify-between">
           <div className='cursor-pointer'> <Anime/> </div>
 
