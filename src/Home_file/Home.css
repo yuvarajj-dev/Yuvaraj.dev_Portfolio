@@ -2,10 +2,13 @@
     background-color: #f9f9f9;
     height: 100vh;
 }
+
+
 .hand-img{
+    width: 3rem;
     position: absolute;
-    top: 3.7rem;
-    right: 11rem;
+    top: 4.1rem;
+    left: 17rem;
 }
 .profile-div{
     width: 20rem;
@@ -14,4 +17,18 @@
 .profile-pic{
     border: 2px solid black;
     border-radius: 50%;
+}
+
+@media (width <= 1279px){
+    .hand-img{
+        top: 7rem;
+    }
+}
+
+@media (width <= 1024px){
+    .hand-img{
+        top: 3rem;
+        width: 2.5rem;
+        left: 30.5rem;
+    }
 }
