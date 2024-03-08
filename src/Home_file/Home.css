@@ -27,8 +27,20 @@
 
 @media (width <= 1024px){
     .hand-img{
-        top: 3rem;
+        top: 4rem;
         width: 2.5rem;
         left: 30.5rem;
+    }
+}
+@media(width < 768px){
+    .hand-img{
+        top: 1rem;
+        left: 33.5rem;
+    }
+}
+@media (width <= 600px){
+    .hand-img{
+        left: 15rem;
+        top: 3rem;
     }
 }
