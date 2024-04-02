@@ -5,7 +5,7 @@ import Blob from "./Profile Blob effect/Blob";
 
 export default function () {
     const handlelinked = () =>{
-      window.open("www.linkedin.com/in/jyuvaraj", "_blank");
+      window.open("https://www.linkedin.com/in/jyuvaraj", "_blank");
     }
   return (
     <>
