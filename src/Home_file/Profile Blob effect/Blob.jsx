@@ -4,7 +4,7 @@ export default function Blob() {
     return (
         <>
             <div className="circle mx-auto">
-                <img src=".\Assest\profile photo\stefan.webp" alt="profile-pic" />
+                <img src=".\Assest\profile photo\Yuvaraj.jpg" alt="profile-pic" />
             </div>
         </>
     )

@@ -2,8 +2,11 @@ import "./Home.css";
 import Blob from "./Profile Blob effect/Blob";
 
 
-export default function () {
 
+export default function () {
+    const handlelinked = () =>{
+      window.open("www.linkedin.com/in/jyuvaraj", "_blank");
+    }
   return (
     <>
       <div className="bg">
@@ -34,18 +37,19 @@ export default function () {
                             ">
                 Front-End React Developer
               </p>
+              <img src=".\Assest\icons8-waving-hand-light-skin-tone-96.png" alt="hand" className="hand-img" />
             </div>
             <p className="xl:text-xl xl:pb-3 
                           lg:text-xl lg:pb-3 lg:w-full lg:text-start
                           md:text-lg md:text-center md:w-1/1 md:mx-auto
                           text-center 
-            ">Hi, I'm Stefan Topalovic. A passionate Front-end React Developer based in Tamilnadu, India. 📍</p>
+            ">Hi, I'm Yuvaraj. A passionate Front-end React Developer based in Tamilnadu, India. 📍</p>
             <div className="xl:flex xl:gap-6 xl:items-center
                             lg:flex lg:gap-6 lg:items-center lg:justify-start
                             md:flex md:gap-6 md:items-center md:justify-center md:py-2
                             flex gap-3 justify-center py-2
             ">
-              <img src="./Assest/gif/icons8-linkedin.gif" alt="LinkedIn Icon" width="40" height="50" />
+              <img onClick={()=>{handlelinked()}} className="cursor-pointer" src="./Assest/gif/icons8-linkedin.gif" alt="LinkedIn Icon" width="40" height="50" />
               <img src="./Assest/gif/icons8-github.gif" alt="git Icon" width="40" height="50" />
             </div>
           </div>
