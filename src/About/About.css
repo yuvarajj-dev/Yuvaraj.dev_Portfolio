@@ -1,0 +1,53 @@
+.anime {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    background-color: #008DDA;
+    z-index: -20;
+    height: 100vh;
+}
+
+.animation-wrapper {
+    width: 50%;
+    padding-bottom: 50%;
+}
+
+.sphere-animation {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: -2;
+    width: 580px;
+    height: 580px;
+    margin: -290px 0 0 -290px;
+}
+
+.sphere path {
+    fill: url(#sphereGradient);
+    stroke-width: 1px;
+    stroke: rgba(80, 80, 80, .35);
+    backface-visibility: hidden;
+}
+.anime-text{
+    height: 100vh;  
+}
+.anime-text > div{
+    color: white;
+    font-style: italic;
+}
+.anime-para{
+    width: 50% ;
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+
+
+
+@media (min-width: 500px) {
+    .sphere path {
+        stroke-width: .4px;
+    }
+}
