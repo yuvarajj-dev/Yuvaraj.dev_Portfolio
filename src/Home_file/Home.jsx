@@ -1,19 +1,23 @@
 import "./Home.css";
 import Blob from "./Profile Blob effect/Blob";
+import Tech from "./Tech Stack/Tech";
 
 
 
 export default function () {
-    const handlelinked = () =>{
-      window.open("https://www.linkedin.com/in/jyuvaraj", "_blank");
-    }
+  const handlelinked = () => {
+    window.open("https://www.linkedin.com/in/jyuvaraj", "_blank");
+  }
+  const handlegithub = () => {
+    window.open("https://github.com/yuvarajj-dev", "_blank");
+  }
   return (
     <>
       <div className="bg">
         <div className="container xl:mx-auto xl:px-52 xl:py-16 xl:flex
                                   lg:mx-auto lg:px-32 lg:py-16 lg:flex
-                                  md:py-16 md:mx-auto
-                                  py-10  mx-auto
+                                  md:pt-16  md:mx-auto
+                                  pt-10  mx-auto
         ">
           {/* blog div for sm-md */}
           <div className="xl:hidden
@@ -49,8 +53,8 @@ export default function () {
                             md:flex md:gap-6 md:items-center md:justify-center md:py-2
                             flex gap-3 justify-center py-2
             ">
-              <img onClick={()=>{handlelinked()}} className="cursor-pointer" src="./Assest/gif/icons8-linkedin.gif" alt="LinkedIn Icon" width="40" height="50" />
-              <img src="./Assest/gif/icons8-github.gif" alt="git Icon" width="40" height="50" />
+              <img onClick={() => { handlelinked() }} className="cursor-pointer" src="./Assest/gif/icons8-linkedin.gif" alt="LinkedIn Icon" width="40" height="50" />
+              <img onClick={() => { handlegithub() }} className="cursor-pointer" src="./Assest/gif/icons8-github.gif" alt="git Icon" width="40" height="50" />
             </div>
           </div>
 
@@ -61,7 +65,11 @@ export default function () {
                           hidden               
           ">
             <Blob />
+
           </div>
+        </div>
+        <div className="icons-div ">
+            <Tech />
         </div>
       </div>
     </>

@@ -1,0 +1,15 @@
+.icons{
+    width: 50px;
+}
+@media (width < 1024px){
+    .tech-text{
+        text-align: center;
+    }
+    .tech-text > p:first-child {
+        text-decoration: underline;
+        margin: 1rem 0;
+    }
+    .text-icons{
+        margin: 0 auto;
+    }
+}

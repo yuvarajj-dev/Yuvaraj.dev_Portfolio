@@ -26,6 +26,9 @@
 }
 
 @media (width <= 1024px){
+    .bg{
+        height: 100%;
+    }
     .hand-img{
         top: 4rem;
         width: 2.5rem;
