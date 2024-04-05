@@ -141,8 +141,8 @@ export default function About() {
         </div>
         <div className='anime-text flex justify-center items-center '>
           <div className='text-center'>
-            <h1 className='xl:text-2xl lg:text-xl text-lg'>ABOUT ME</h1>
-            <div className='anime-para'>
+            <h1 className='xl:text-2xl lg:text-xl font-bold text-lg xl:text-white lg:text-white hover:text-blue-400'>ABOUT ME</h1>
+            <div className='xl:text-white lg:text-white anime-para'>
               <p>Front-end Developer based in Tamil Nadu, India 📍</p>
               <p>Hey, my name is Yuvaraj, and I'm a Frontend React Developer. My passion is to create and develop a clean UI/UX for my users.</p>
               <p>My main stack currently is React/Next.js in combination with Tailwind CSS.</p>
