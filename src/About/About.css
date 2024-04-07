@@ -12,6 +12,7 @@
 .animation-wrapper {
     width: 50%;
     padding-bottom: 50%;
+    margin: 0 auto;
 }
 
 .sphere-animation {

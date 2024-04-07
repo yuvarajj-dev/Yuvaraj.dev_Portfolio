@@ -1,0 +1,62 @@
+.Card {
+    height: 100vh;
+    width: 100% ;
+}
+
+.card-div {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: rgb(241, 244, 243);
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+.card-text > p{
+    font-size: 15px;
+}
+
+.card-div h1:hover {
+    color: rgb(11, 115, 195); /* Change the color to your desired color */
+}
+.card-img{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 15px;
+}
+
+.card-img>img {
+    border-radius: 15px;
+}
+
+@media (width < 1024px){
+    .card-div{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 60%;
+        margin: 0 auto;
+    }
+    .card-text{
+        order: 2;
+        width: 100%;
+    }
+    .card-img{
+        order: 1;
+        width: 100%;
+    }
+}
+@media (width < 650px){
+    .card-div{
+        width: 80%;
+        padding: 1rem;
+    }
+    .card-text{
+        padding:  .5rem !important ;
+    }
+    .card-text > p{
+        font-size: 14px;
+    }
+    .card-div{
+        padding: .5rem;
+    }
+    
+}
