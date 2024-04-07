@@ -1,0 +1,28 @@
+.Contact-main{
+    max-width: 100%;
+    background-color: #f9f9f9;
+}
+.contact{
+    width: 80%;
+    margin: 0 auto;
+}
+.map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.mail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+@media (width <= 768px){
+    .map{
+        justify-content: start;
+    }
+    .mail{
+        justify-content: start;
+    }
+}

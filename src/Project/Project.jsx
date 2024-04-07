@@ -17,7 +17,8 @@ export default function Project() {
           clickable: true,
         }}
         modules={[Pagination]}
-        className="mySwiper"
+        className="mySwiper "
+        id='Project-secion'
       >
         <SwiperSlide>
           <Card1 url={`https://walkinternational.com/`} section={`First Project`} title={"Walk International clone"} des={`Developed 'Walk International' website from scratch using React.js, ensuring

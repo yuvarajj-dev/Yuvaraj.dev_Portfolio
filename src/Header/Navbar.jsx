@@ -9,12 +9,18 @@ const Navbar = () => {
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
-
+  
+  const Project = (projectSection) => {
+    if (projectSection) {
+      projectSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+  
   return (
     <>
       <nav className=" navbar  lg:py-4 sm:py-4  py-1 px-5 sm:px-10">
         <div className="container mx-auto flex items-center justify-between">
-          <div className='cursor-pointer'> <Anime/> </div>
+          <div className='cursor-pointer'> <Anime /> </div>
 
           <div className="lg:hidden">
             <button
@@ -43,16 +49,16 @@ const Navbar = () => {
           </div>
 
           <div className={`lg:flex hidden`}>
-            <a href="#" className="nav-items">
+            <a href="#" className="nav-items" onClick={()=>{Project(document.getElementById('Home-secion'))}}>
               Home
             </a>
-            <a href="#" className="nav-items">
+            <a href="#" className="nav-items" onClick={()=>{Project(document.getElementById('About-secion'))}}>
               About
             </a>
-            <a href="#" className="nav-items">
+            <a href="#" className="nav-items" onClick={()=>{Project(document.getElementById('Project-secion'))}}>
               Project
             </a>
-            <a href="#" className="nav-items">
+            <a href="#" className="nav-items" onClick={()=>{Project(document.getElementById('Contact-secion'))}}>
               Contact
             </a>
           </div>
@@ -79,16 +85,16 @@ const Navbar = () => {
           ✕
         </button>
         <div className='text-center pt-10'>
-          <a href="#" className="nav-items block">
+          <a href="#" className="nav-items block" onClick={()=>{Project(document.getElementById('Home-secion'))}}>
             Home
           </a>
-          <a href="#" className="nav-items  block ">
+          <a href="#" className="nav-items  block " onClick={()=>{Project(document.getElementById('About-secion'))}}>
             About
           </a>
-          <a href="#" className="nav-items  block">
+          <a href="#" className="nav-items  block" onClick={()=>{Project(document.getElementById('Project-secion'))}}>
             Project
           </a>
-          <a href="#" className="nav-items  block">
+          <a href="#" className="nav-items  block" onClick={()=>{Project(document.getElementById('Contact-secion'))}}>
             Contact
           </a>
         </div>

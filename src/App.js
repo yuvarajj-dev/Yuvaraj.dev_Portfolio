@@ -5,6 +5,8 @@ import Navbar from './Header/Navbar';
 import Home from './Home_file/Home';
 
 import Project from './Project/Project';
+import Contact from './Contact/Contact';
+import Footer from './Footer/Footer';
 
 function App() {
 
@@ -15,6 +17,8 @@ function App() {
       <Home />
       <About />
       <Project />
+      <Contact />
+      <Footer />
     </>
   );
 }

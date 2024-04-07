@@ -13,7 +13,7 @@ export default function () {
   }
   return (
     <>
-      <div className="bg pb-20 xl:pb-5 lg:pb-5 ">
+      <div id="Home-secion" className="bg pb-20 xl:pb-5 lg:pb-5 ">
         <div className="container xl:mx-auto xl:px-52 xl:py-16 xl:flex
                                   lg:mx-auto lg:px-32 lg:py-16 lg:flex
                                   md:pt-16  md:mx-auto

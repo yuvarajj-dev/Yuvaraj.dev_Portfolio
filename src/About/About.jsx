@@ -102,7 +102,7 @@ export default function About() {
   }, [sphereEl]);
   return (
     <>
-      <div>
+      <div id='About-secion'>
         <div className='anime'>
           <div class="animation-wrapper">
             <div class="sphere-animation" ref={el => setSphereEl(el)} >
