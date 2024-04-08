@@ -1,4 +1,5 @@
-# 📁 Yuvaraj's Portfolio
+
+## 📁 Yuvaraj's Portfolio
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Deployment Status](https://img.shields.io/badge/Deployment-Success-brightgreen)](https://yuvaraj-dev-portfolio.vercel.app/)
@@ -23,20 +24,6 @@ Explore my portfolio: [Yuvaraj's Portfolio](https://yuvaraj-dev-portfolio.vercel
 - **JavaScript**: Programming language for adding interactivity and functionality.
 - **HTML**: Markup language for structuring web pages.
 - **CSS**: Styling language for enhancing the appearance of web pages.
-  
-🎨 Animation Frameworks
-My portfolio incorporates various animation frameworks to create engaging and interactive user experiences. These frameworks include:
-
-GSAP (GreenSock Animation Platform): Utilized for complex animations and transitions throughout the portfolio. GSAP offers powerful capabilities for creating smooth, high-performance animations.
-
-Swiper: Integrated for creating interactive sliders and carousels. Swiper provides a versatile solution for showcasing content in a dynamic and visually appealing manner.
-
-Anime.js: Leveraged for adding dynamic animations to specific elements. Anime.js offers flexibility and ease of use for creating customized animations with JavaScript.
-
-CSS Animations: Additionally, I've implemented CSS animations to enhance various aspects of the portfolio. CSS animations allow for lightweight and seamless animations directly within the browser.
-
-💫 Bold Integration
-These animation frameworks play a significant role in enhancing the overall user experience of my portfolio. From subtle transitions to eye-catching effects, animations are strategically utilized to captivate visitors and highlight key elements of the portfolio.
 
 ## 🛠️ Installation
 
@@ -46,25 +33,54 @@ To run this project locally, follow these steps:
 
    ```bash
    git clone https://github.com/your-username/your-portfolio.git
-Navigate to the project directory:
+   ```
 
-  ```bash
+2. Navigate to the project directory:
+
+   ```bash
    cd your-portfolio
-Install dependencies:
+   ```
 
-  npm install
-Start the development server:
+3. Install dependencies:
 
-npm start
-Open your browser and visit http://localhost:3000 to view the portfolio.
+   ```bash
+   npm install
+   ```
 
-🚀 Usage
+4. Start the development server:
+
+   ```bash
+   npm start
+   ```
+
+5. Open your browser and visit `http://localhost:3000` to view the portfolio.
+
+## 🚀 Usage
+
 My portfolio showcases my projects, skills, and experience. You can explore the different sections to learn more about me and my work.
 
-✨ Features
-Responsive design for seamless viewing on various devices.
-Detailed sections for projects, skills, and experience.
-Integration of images and media to enhance the portfolio's visual appeal.
-Contact form for connecting with potential employers and collaborators.
+## ✨ Features
+
+- Responsive design for seamless viewing on various devices.
+- Detailed sections for projects, skills, and experience.
+- Integration of images and media to enhance the portfolio's visual appeal.
+- Contact form for connecting with potential employers and collaborators.
+
+## 🎨 Animation Frameworks
+
+My portfolio incorporates various animation frameworks to create engaging and interactive user experiences. These frameworks include:
+
+- **GSAP (GreenSock Animation Platform)**: Utilized for complex animations and transitions throughout the portfolio. GSAP offers powerful capabilities for creating smooth, high-performance animations.
+  
+- **Swiper**: Integrated for creating interactive sliders and carousels. Swiper provides a versatile solution for showcasing content in a dynamic and visually appealing manner.
+  
+- **Anime.js**: Leveraged for adding dynamic animations to specific elements. Anime.js offers flexibility and ease of use for creating customized animations with JavaScript.
+  
+- **CSS Animations**: Additionally, I've implemented CSS animations to enhance various aspects of the portfolio. CSS animations allow for lightweight and seamless animations directly within the browser.
+
+## 💫 Bold Integration
+
+These animation frameworks play a significant role in enhancing the overall user experience of my portfolio. From subtle transitions to eye-catching effects, animations are strategically utilized to captivate visitors and highlight key elements of the portfolio.
 
 By leveraging these animation frameworks, I aim to create a memorable and immersive journey for visitors as they explore my portfolio and interact with its content.
+```
