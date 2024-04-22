@@ -51,6 +51,9 @@
     .anime-text > div{
         color: #b4bbbb;
     }
+    .sphere path {
+        stroke-width: .4px;
+    }
 }
 
 
