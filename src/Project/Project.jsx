@@ -26,9 +26,7 @@ export default function Project() {
         id='Project-secion'
       >
           <SwiperSlide>
-            <Card1 url={`https://chennai-digital-prints.vercel.app/`} section={`FREELANCING PROJECT`} title={"SHOP WEBSITE : CHENNAI DIGITAL PRINTS"} des={`Chennai Digital Prints" is a React.js and Tailwind CSS-based freelancing website 
-                                tailored for a printing shop. Utilizing GSAP animations and Material Design components, it offers a dynamic and user-friendly interface. Visitors can explore various printing services such as visiting cards, brochures, and ID cards.
-                                The website aims to provide a seamless browsing experience and efficient access to printing solutions. With modern design and advanced features, "Chennai Digital Prints" ensures a professional platform for clients and users.`} img={`.\\Assest\\CDP.png`} alt={`CHENNAI DIGITAL PRINT`} />
+            <Card1 url={`https://chennai-digital-prints.vercel.app/`} section={`FREELANCING PROJECT`} title={"SHOP WEBSITE : CHENNAI DIGITAL PRINTS"} des={`"Chennai Digital Prints" utilizes React.js and Tailwind CSS to offer printing services with GSAP animations and Material Design components, ensuring a seamless and professional user experience.`} img={`.\\Assest\\CDP.png`} alt={`CHENNAI DIGITAL PRINT`} />
           </SwiperSlide>
         <SwiperSlide>
           <Card1 url={`https://walkinternational.vercel.app/`} section={`First Project`} title={"Walk International clone"} des={`Developed 'Walk International' website from scratch using React.js, ensuring

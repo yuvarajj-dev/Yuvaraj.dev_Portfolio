@@ -16,7 +16,7 @@ export default function Card1(props) {
                 <div onClick={()=>{handleproject()}} className='flex justify-center cursor-pointer  items-center '>
                     <div className="card-div  xl:flex lg:flex xl:justify-center lg:justify-center xl:items-center lg:items-center xl:p-5 p-5 ">
                         <div className='card-text xl:w-1/2 w-1/2 xl:p-5 p-5 '>
-                            <h1 className='xl:text-2xl xl:font-bold lg:text-2xl lg:font-bold sm:text-lg  font-bold'>{props.title}</h1>
+                            <h1 className='xl:text-2xl xl:font-bold lg:text-2xl lg:font-bold sm:text-sm  font-bold'>{props.title}</h1>
                             <p className='' >{props.des}</p>
                         </div>
                         <div className="card-img shadow-lg  flex justify-center items-center xl:w-1/2 w-1/2 ">
