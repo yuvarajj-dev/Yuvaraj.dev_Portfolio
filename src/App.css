@@ -3,44 +3,31 @@
 * {
   font-family: 'Sora', sans-serif;
 }
+
 ::-webkit-scrollbar {
-  width: 12px;
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: #02b9d4; 
-  border-radius: 6px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background-color: #0088a9;
+  width: .5rem;
 }
 
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background: #F1EEDC;
 }
 
-::-webkit-scrollbar-thumb:active {
-  background-color: #00596b; 
+::-webkit-scrollbar-thumb {
+  background-color: #B3C8CF;
+  border-radius: 40px;
 }
 
-html {
-  scrollbar-color: #f1f1f1 #02b9d4; 
+::-webkit-scrollbar-thumb:hover {
+  background: #BED7DC;
 }
 
-html {
-  scrollbar-width: thin;
+@media (width <=500px) {
+  ::-webkit-scrollbar {
+    width: .3rem;
+  }
 }
 
-html:hover {
-  scrollbar-color: #f1f1f1 #0088a9; 
-}
-
-html:active {
-  scrollbar-color: #f1f1f1 #00596b; 
-}
-
-.hooksMain > div {
+.hooksMain>div {
   position: absolute;
   will-change: transform;
   border-radius: 50%;
@@ -49,22 +36,22 @@ html:active {
   opacity: 0.6;
 }
 
-.hooksMain > div:nth-child(1) {
+.hooksMain>div:nth-child(1) {
   width: 60px;
   height: 60px;
 }
 
-.hooksMain > div:nth-child(2) {
+.hooksMain>div:nth-child(2) {
   width: 125px;
   height: 125px;
 }
 
-.hooksMain > div:nth-child(3) {
+.hooksMain>div:nth-child(3) {
   width: 75px;
   height: 75px;
 }
 
-.hooksMain > div::after {
+.hooksMain>div::after {
   content: '';
   position: absolute;
   top: 20px;
@@ -75,14 +62,14 @@ html:active {
   background: rgba(255, 255, 255, 0.8);
 }
 
-.hooksMain > div:nth-child(2)::after {
+.hooksMain>div:nth-child(2)::after {
   top: 35px;
   left: 35px;
   width: 35px;
   height: 35px;
 }
 
-.hooksMain > div:nth-child(3)::after {
+.hooksMain>div:nth-child(3)::after {
   top: 25px;
   left: 25px;
   width: 25px;
@@ -104,4 +91,3 @@ html:active {
   user-select: none;
   cursor: default;
 }
-

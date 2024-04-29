@@ -139,6 +139,9 @@ export default function About() {
             </div>
           </div>
         </div>
+        <div className='image-about'>
+            <img src=".\Assest\About.jpg" alt="about" />
+        </div>
         <div className='anime-text flex justify-center items-center '>
           <div className='text-center'>
             <h1 className='xl:text-2xl lg:text-xl font-bold text-lg xl:text-white lg:text-white hover:text-blue-400'>ABOUT ME</h1>

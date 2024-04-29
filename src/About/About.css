@@ -8,7 +8,9 @@
     z-index: -20;
     height: 100vh;
 }
-
+.image-about{
+    display: none;
+}
 .animation-wrapper {
     width: 50%;
     padding-bottom: 50%;
@@ -34,22 +36,29 @@
 .anime-text{
     height: 100vh;  
 }
-.anime-text > div{
-    color: rgb(153, 128, 128);
-    font-style: italic;
-}
+
 .anime-para{
     width: 50% ;
     margin: 0 auto;
     font-size: 16px;
 }
-
+@media (width < 1024px){
+    .anime{
+        display: none;
+    }
+    .image-about{
+        display: flex;
+        width: 100%;
+    }
+    .anime-text{
+        height: 100%;
+        text-align: justify;
+        margin: .5rem 0;
+    }
+}
 @media (width <= 600px) {
     .anime-para{
         width: 100%;
-    }
-    .anime-text > div{
-        color: #b4bbbb;
     }
     .sphere path {
         stroke-width: .4px;

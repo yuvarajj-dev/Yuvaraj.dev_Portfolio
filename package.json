@@ -5,6 +5,8 @@
   "dependencies": {
     "@ionic/react": "^7.7.3",
     "@react-spring/web": "^9.7.3",
+    "@splinetool/react-spline": "^2.2.6",
+    "@splinetool/runtime": "^1.1.9",
     "@stitches/react": "^1.2.8",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
