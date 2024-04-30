@@ -1,8 +1,8 @@
-import React, { Suspense, lazy, useEffect } from 'react';
+import React, { Suspense, useEffect } from 'react';
 import './Spline.css';
 
 // Import the Spline component without lazy loading
-const Spline = lazy(() => import('@splinetool/react-spline'));
+const Spline = React.lazy(() => import('@splinetool/react-spline'));
 
 export default function ThreeD() {
     useEffect(() => {
@@ -19,10 +19,6 @@ export default function ThreeD() {
             <Suspense fallback={<div>Loading...</div>}>
                 <Spline
                     scene="https://prod.spline.design/zPPfWLiP8NOkNkyj/scene.splinecode"
-                    optimize={{
-                        enableCompression: true, // Enable compression for faster loading
-                        enableMinification: true // Enable minification for reduced file size
-                    }}
                 />
             </Suspense>
         </div>
