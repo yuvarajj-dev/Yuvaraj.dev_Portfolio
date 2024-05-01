@@ -1,46 +1,20 @@
-.anime {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    width: 100%;
-    background-color: #fffafa;
-    z-index: -20;
+.cuib{
     height: 100vh;
 }
 .image-about{
     display: none;
 }
-.animation-wrapper {
-    width: 50%;
-    padding-bottom: 50%;
-    margin: 0 auto;
-}
 
-.sphere-animation {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    z-index: -2;
-    width: 580px;
-    height: 580px;
-    margin: -290px 0 0 -290px;
-}
-
-.sphere path {
-    fill: url(#sphereGradient);
-    stroke-width: 1px;
-    stroke: rgba(80, 80, 80, .35);
-    backface-visibility: hidden;
-}
 .anime-text{
     height: 100vh;  
 }
 
 .anime-para{
-    width: 50% ;
+    width: 80%;
     margin: 0 auto;
-    font-size: 16px;
+}
+.anime-para > p{
+    margin: .5rem 0;
 }
 @media (width < 1024px){
     .anime{
@@ -52,21 +26,14 @@
     }
     .anime-text{
         height: 100%;
-        text-align: justify;
         margin: .5rem 0;
     }
 }
 @media (width <= 600px) {
     .anime-para{
-        width: 100%;
+        width: 95%;
+        margin: 0 auto;
     }
-    .sphere path {
-        stroke-width: .4px;
-    }
-}
-
-
-@media (min-width: 500px) {
     .sphere path {
         stroke-width: .4px;
     }

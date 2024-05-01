@@ -1,6 +1,7 @@
 .Card {
-    height: 100vh;
+    height: 70vh;
     width: 100% ;
+    margin: 1rem 0;
 }
 
 .card-div {
@@ -28,6 +29,9 @@
 }
 
 @media (width < 1024px){
+    .Card{
+        height: 95vh;
+    }
     .card-div{
         display: flex;
         flex-direction: column;
@@ -44,7 +48,15 @@
         width: 100%;
     }
 }
+@media (width < 900px){
+    .Card{
+        height: auto;
+    }
+}
 @media (width < 650px){
+    .Card{
+        height: 90vh;
+    }
     .card-div{
         width: 80%;
         height: 26rem;

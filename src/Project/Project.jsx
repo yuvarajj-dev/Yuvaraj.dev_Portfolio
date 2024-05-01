@@ -18,7 +18,7 @@ export default function Project() {
         }}
         loop={true}
         autoplay={{
-          delay: 3000,
+          delay: 3500,
           disableOnInteraction: false,
         }}
         modules={[Autoplay, Pagination]}

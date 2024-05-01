@@ -17,7 +17,7 @@ function App() {
       <Navbar />
       <Home />
       <About />
-      <ThreeD />
+      {/* <ThreeD /> */}
       <Project />
       <Contact />
       <Footer />
