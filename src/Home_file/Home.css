@@ -1,53 +1,61 @@
-.bg{
+.bg {
     background-color: #f9f9f9;
-    height: 100vh;
+    /* height: 100vh; */
 }
-#Home-secion{
+
+#Home-secion {
     padding: 5rem 0 3rem 0;
 }
 
-.hand-img{
+.hand-img {
     width: 3rem;
     position: absolute;
     top: 5.5rem;
     left: 17rem;
 }
-.profile-div{
+
+.profile-div {
     width: 20rem;
     height: 20rem;
 }
-.profile-pic{
+
+.profile-pic {
     border: 2px solid black;
     border-radius: 50%;
 }
 
 
-@media (width <= 1279px){
-    .hand-img{
+@media (width <=1279px) {
+    .hand-img {
         top: 8.5rem;
     }
 }
 
-@media (width < 1024px){
-    .bg{
-        height: 100vh;
-    }
-    .hand-img{
+@media (width < 1024px) {
+    .hand-img {
         top: 4rem;
         width: 2.5rem;
         left: 30.5rem;
     }
 }
-@media(width < 768px){
-    .hand-img{
+
+@media(width < 768px) {
+    .hand-img {
         top: 1rem;
         left: 33.5rem;
     }
 }
-@media (width <= 600px){
-    .hand-img{
+
+@media (width <=600px) {
+    .hand-img {
         left: 15rem;
         top: 3rem;
         display: none;
     }
+
+    #Home-secion {
+        padding: 5rem 0 2rem 0;
+        height: 100%;
+    }
+
 }
