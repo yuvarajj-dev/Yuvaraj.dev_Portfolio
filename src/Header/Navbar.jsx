@@ -8,6 +8,7 @@ const Navbar = () => {
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
+    
   };
   
   const Project = (projectSection) => {
@@ -25,7 +26,7 @@ const Navbar = () => {
           <div className="lg:hidden">
             <button
               onClick={toggleMenu}
-              className=" focus:outline-none focus:border-none"
+              className=" focus:outline-none toggle focus:border-none"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
