@@ -1,6 +1,6 @@
 .bg {
     background-color: #f9f9f9;
-    /* height: 100vh; */
+   height: 100vh    ;
 }
 
 #Home-secion {
@@ -24,14 +24,21 @@
     border-radius: 50%;
 }
 
-
-@media (width <=1279px) {
+@media (width =1024px ){
+    .hand-img{
+        display: none;
+    }
+}
+@media (width <=1279px ) {
     .hand-img {
         top: 8.5rem;
     }
 }
 
-@media (width < 1024px) {
+@media (width <= 1024px) {
+    .bg{
+        height: 0%;
+    }
     .hand-img {
         top: 4rem;
         width: 2.5rem;

@@ -1,0 +1,51 @@
+.Resume {
+    height: 65vh;
+    width: 100%;
+}
+
+
+.btn-div{
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0 2rem 2rem;
+}
+.btn{
+    width: 9%;
+    height: 2.5rem;
+    background-color: #010101;
+    border-radius: 1rem;
+    color: #fff;
+}
+.btn:hover{
+    border: 2.5px solid rgb(0, 0, 0);
+    background-color: white;
+    color: black;
+    transition: all 500ms ease;
+}
+.btn:focus{
+    border: 2px solid slateblue;
+}
+@media (width <= 1024px) {
+    .Resume {
+        height: 90vh;
+    }
+    .btn{
+        width: 30%;
+    }
+}
+@media (width < 768px) {
+    .Resume {
+        height: 100vh;
+    }
+    .btn{
+        width: 30%;
+    }
+}
+@media (width < 500px) {
+    .Resume {
+        height: 85vh;
+    }
+    .btn{
+        width: 70%;
+    }
+}

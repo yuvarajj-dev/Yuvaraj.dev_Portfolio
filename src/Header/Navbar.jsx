@@ -59,6 +59,9 @@ const Navbar = () => {
             <a href="#" className="nav-items" onClick={()=>{Project(document.getElementById('Project-secion'))}}>
               Project
             </a>
+            <a href="#" className="nav-items" onClick={()=>{Project(document.getElementById('Resume-secion'))}}>
+              Resuem
+            </a>
             <a href="#" className="nav-items" onClick={()=>{Project(document.getElementById('Contact-secion'))}}>
               Contact
             </a>
@@ -94,6 +97,9 @@ const Navbar = () => {
           </a>
           <a href="#" className="nav-items  block" onClick={()=>{Project(document.getElementById('Project-secion'))}}>
             Project
+          </a>
+          <a href="#" className="nav-items  block" onClick={()=>{Project(document.getElementById('Resume-secion'))}}>
+            Resume
           </a>
           <a href="#" className="nav-items  block" onClick={()=>{Project(document.getElementById('Contact-secion'))}}>
             Contact

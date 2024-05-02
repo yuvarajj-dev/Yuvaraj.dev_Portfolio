@@ -8,6 +8,7 @@ import Project from './Project/Project';
 import Contact from './Contact/Contact';
 import Footer from './Footer/Footer';
 import ThreeD from './About/3D spline/ThreeD';
+import Resume from './RESUME/Resume';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       <About />
       {/* <ThreeD /> */}
       <Project />
+      <Resume />
       <Contact />
       <Footer />
     </>

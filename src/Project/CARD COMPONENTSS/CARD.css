@@ -30,7 +30,7 @@
 
 @media (width < 1024px){
     .Card{
-        height: 95vh;
+        height: 50vh;
     }
     .card-div{
         display: flex;
