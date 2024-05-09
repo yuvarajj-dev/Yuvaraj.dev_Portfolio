@@ -1,14 +1,13 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import "./Project.css";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import Card1 from './CARD COMPONENTSS/Card1';
 import { Autoplay, Pagination } from 'swiper/modules';
-import useScroll from '../SmoothScroll/Smooth';
 
 export default function Project() {
-  useScroll();
+  
   return (
     <>
       <Swiper

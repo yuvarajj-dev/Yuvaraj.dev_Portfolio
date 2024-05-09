@@ -4,7 +4,7 @@ import Tech from "./Tech Stack/Tech";
 import useScroll from "../SmoothScroll/Smooth";
 
 
-export default function () {
+export default function  Home() {
   //useSmoothScroll();
   useScroll();
   const handlelinked = () => {
