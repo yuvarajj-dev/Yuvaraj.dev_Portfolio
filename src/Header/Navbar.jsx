@@ -60,7 +60,7 @@ const Navbar = () => {
               Project
             </a>
             <a href="#" className="nav-items" onClick={() => { Project(document.getElementById('Resume-secion')) }}>
-              Resuem
+              Resume
             </a>
             <a href="#" className="nav-items" onClick={() => { Project(document.getElementById('Contact-secion')) }}>
               Contact
@@ -98,7 +98,7 @@ const Navbar = () => {
           <a href="#" className="nav-items  block" onClick={() => { Project(document.getElementById('Project-secion')) }}>
             Project
           </a>
-          <a href="#" className="nav-items  block" onClick={() => { Project(document.getElementById('Resume-secion')) }}>
+          <a href="#" className="nav-items  block" onClick={() => { Project(document.getElementById('Resume-secion`')) }}>
             Resume
           </a>
           <a href="#" className="nav-items  block" onClick={() => { Project(document.getElementById('Contact-secion')) }}>

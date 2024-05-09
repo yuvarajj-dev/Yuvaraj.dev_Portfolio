@@ -1,10 +1,12 @@
 import "./Home.css";
 import Blob from "./Profile Blob effect/Blob";
 import Tech from "./Tech Stack/Tech";
-
+import useScroll from "../SmoothScroll/Smooth";
 
 
 export default function () {
+  //useSmoothScroll();
+  useScroll();
   const handlelinked = () => {
     window.open("https://www.linkedin.com/in/jyuvaraj", "_blank");
   }
@@ -13,7 +15,7 @@ export default function () {
   }
   return (
     <>
-      <div id="Home-secion" className="bg pb-20  lg:pb-10 ">
+      <div id="Home-secion " className="bg pb-20 js-scroll pt-10 lg:pb-10 ">
         <div className="container xl:mx-auto xl:px-52 xl:py-16 xl:flex
                                   lg:mx-auto lg:px-32 lg:py-16 lg:flex
                                   md:pt-16  md:mx-auto

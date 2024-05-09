@@ -11,7 +11,7 @@ export default function Resume() {
     }
     return (
         <>
-            <div className="Resume-main">
+            <div id="Resume-secion" className="Resume-main">
                 <h1 className='lg:text-3xl text-2xl font-bold text-center'>Resume Section</h1>
                 <div className='Resume'>
                     <Spline className='robot' scene="https://prod.spline.design/F9cNTA6VilbU-ZtT/scene.splinecode" />

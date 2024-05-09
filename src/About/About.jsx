@@ -1,12 +1,13 @@
 import React from 'react';
 import "./About.css";
 import Spline from '@splinetool/react-spline';
+import useScroll from '../SmoothScroll/Smooth';
 
 export default function About() {
-  
+  useScroll();
   return (
     <>
-      <div id='About-secion' className='lg:flex'>
+      <div id='About-secion ' className='lg:flex js-scroll'>
         <div className='cuib hidden lg:block  w-1/2'>
           <Spline scene="https://prod.spline.design/2wUTHRpca2Z8mEZG/scene.splinecode" />
         </div>

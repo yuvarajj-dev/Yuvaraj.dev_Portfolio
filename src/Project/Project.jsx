@@ -5,10 +5,10 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import Card1 from './CARD COMPONENTSS/Card1';
 import { Autoplay, Pagination } from 'swiper/modules';
+import useScroll from '../SmoothScroll/Smooth';
 
 export default function Project() {
-
-
+  useScroll();
   return (
     <>
       <Swiper
@@ -22,7 +22,7 @@ export default function Project() {
           disableOnInteraction: false,
         }}
         modules={[Autoplay, Pagination]}
-        className="mySwiper "
+        className="mySwiper js-scroll "
         id='Project-secion'
       >
         <SwiperSlide>
