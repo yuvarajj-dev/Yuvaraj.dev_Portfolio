@@ -1,31 +1,60 @@
+.box {
+  width: 40vmin;
+  height: 50vmin;
+  display: grid;
+  place-content: center;
+  color: white;
+  text-shadow: 0 1px 0 #ffffff;
+  
+  --border-angle: 0turn; /* For animation. */
+  --main-bg: conic-gradient(
+      from var(--border-angle),
+      #213,
+      #112 5%,
+      #112 60%,
+      #213 95%
+    );
+  
+  border: solid 5px transparent;
+  border-radius: 2em;
+  --gradient-border: conic-gradient(from var(--border-angle), transparent 25%, #f9f9f9, #f9f9f9 99%, transparent);
+  
+  background: 
+    /* padding-box clip this background into the overall element except the border. */
+    var(--main-bg) padding-box,
+    /* border-box extends this background to the border space. */
+    var(--gradient-border) border-box, 
+    /* Duplicate main background to fill in behind the gradient border. You can remove this if you want the border to extend "outside" the box background. */
+    var(--main-bg) border-box;
+  
+  background-position: center center;
 
-  
-  .circle {
-    background: plum;
-    width: 20rem;
-    height: 24rem;
-    border-radius: 40% 60% 70% 30% / 40% 50% 60% 50% ;
-    border: 3px solid #080202;
-    overflow: hidden;
-    animation: morph 3s linear infinite;
-  }
-  
-  
-  @keyframes morph{
-    0%, 100% {
-    border-radius: 40% 60% 70% 30% / 40% 40% 60% 50%;
-    }
-    34% {
-      border-radius: 70% 30% 50% 50% / 30% 30% 80% 70%;
-    }
-    67% {
-      border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
-    }
-  }
+  animation: bg-spin 3s linear infinite;
+}
 
-  @media (width <= 600px) {
-      .circle{
-        width: 17rem;
-        height: 20rem;
-      }
+/* Define the animation */
+@keyframes bg-spin {
+  to {
+    --border-angle: 1turn;
   }
+}
+
+/* Pause the animation on hover */
+
+
+/* Define the custom property for the border angle */
+@property --border-angle {
+  syntax: "<angle>";
+  inherits: true;
+  initial-value: 0turn;
+}
+
+
+.rainbow-img{
+  width: 50vmin;
+  height: 48vmin;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  position: relative;
+  top: -2px;
+}

@@ -1,6 +1,18 @@
 .icons{
     width: 50px;
 }
+.linked{
+    border-radius:  0 10px 0 0;
+}
+.icons,.anime-icon{
+    transition: 0.7s;
+}
+.icons:hover{
+    transform: scale(1.2);
+}
+.anime-icon:hover{
+    transform: scale(1.2);
+}
 @media (width < 1024px){
     .tech-text{
         text-align: center;

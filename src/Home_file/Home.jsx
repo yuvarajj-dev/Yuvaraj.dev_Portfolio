@@ -35,7 +35,7 @@ export default function () {
           <div className="hero-text-div w-full self-center
                                         md:w-full        
           ">
-            <div className="relative flex justify-center py-5 w-2/2 ">
+            <div className="relative flex justify-center py-4 w-2/2 ">
               <p className="text-3xl font-bold text-center 
                             md:text-4xl md:font-bold md:py-2 md:text-center md:w-1/2 md:mx-auto
                             lg:text-5xl lg:font-bold lg:py-5 lg:text-start lg:w-full 
@@ -48,15 +48,15 @@ export default function () {
             <p className="xl:text-xl xl:pb-3 
                           lg:text-xl lg:pb-3 lg:w-full lg:text-start
                           md:text-lg md:text-center md:w-1/1 md:mx-auto
-                          text-center 
+                          text-center font-bold 
             ">Hi, I'm Yuvaraj. A passionate Front-end React Developer based in Tamilnadu, India. 📍</p>
             <div className="xl:flex xl:gap-6 xl:items-center
                             lg:flex lg:gap-6 lg:items-center lg:justify-start
                             md:flex md:gap-6 md:items-center md:justify-center md:py-2
                             flex gap-3 justify-center py-2
             ">
-              <img onClick={() => { handlelinked() }} className="cursor-pointer" src="./Assest/gif/icons8-linkedin.gif" alt="LinkedIn Icon" width="40" height="50" />
-              <img onClick={() => { handlegithub() }} className="cursor-pointer" src="./Assest/gif/icons8-github.gif" alt="git Icon" width="40" height="50" />
+              <img onClick={() => { handlelinked() }} className="cursor-pointer anime-icon linked" src="./Assest/gif/icons8-linkedin.gif" alt="LinkedIn Icon" width="40" height="50" />
+              <img onClick={() => { handlegithub() }} className="cursor-pointer anime-icon" src="./Assest/gif/icons8-github.gif" alt="git Icon" width="40" height="50" />
             </div>
           </div>
 
