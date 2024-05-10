@@ -11,7 +11,8 @@ const Navbar = () => {
 
   };
 
-  const Project = (projectSection) => {
+  const Project = (projectSection,event) => {
+    event.preventDefault();
     if (projectSection) {
       projectSection.scrollIntoView({ behavior: 'smooth' });
     }
@@ -50,19 +51,19 @@ const Navbar = () => {
           </div>
 
           <div className={`lg:flex hidden`}>
-            <a href=" " className="nav-items" onClick={() => { Project(document.getElementById('Home-secion')) }}>
+            <a href="#" className="nav-items" onClick={() => { Project(document.getElementById('Home-secion')) }}>
               Home
             </a>
-            <a href="" className="nav-items" onClick={() => { Project(document.getElementById('About-secion')) }}>
+            <a href="#" className="nav-items" onClick={() => { Project(document.getElementById('About-secion')) }}>
               About
             </a>
-            <a href="" className="nav-items" onClick={() => { Project(document.getElementById('Project-secion')) }}>
+            <a href="#" className="nav-items" onClick={() => { Project(document.getElementById('Project-secion')) }}>
               Project
             </a>
-            <a href="" className="nav-items" onClick={() => { Project(document.getElementById('Resume-secion')) }}>
+            <a href="#" className="nav-items" onClick={() => { Project(document.getElementById('Resume-secion')) }}>
               Resume
             </a>
-            <a href="" className="nav-items" onClick={() => { Project(document.getElementById('Contact-secion')) }}>
+            <a href="#" className="nav-items" onClick={() => { Project(document.getElementById('Contact-secion')) }}>
               Contact
             </a>
           </div>

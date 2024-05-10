@@ -1,12 +1,11 @@
 import "./Home.css";
 import Blob from "./Profile Blob effect/Blob";
 import Tech from "./Tech Stack/Tech";
-import useScroll from "../SmoothScroll/Smooth";
 
 
 export default function  Home() {
   //useSmoothScroll();
-  useScroll();
+  
   const handlelinked = () => {
     window.open("https://www.linkedin.com/in/jyuvaraj", "_blank");
   }

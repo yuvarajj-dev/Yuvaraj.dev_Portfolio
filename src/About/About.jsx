@@ -1,10 +1,10 @@
 import React from 'react';
 import "./About.css";
 import Spline from '@splinetool/react-spline';
-import useScroll from '../SmoothScroll/Smooth';
+
 
 export default function About() {
-  useScroll();
+  
   return (
     <>
       <div id='About-secion' className='lg:flex js-scroll'>
