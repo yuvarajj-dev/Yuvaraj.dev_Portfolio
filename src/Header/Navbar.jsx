@@ -11,8 +11,8 @@ const Navbar = () => {
 
   };
 
-  const Project = (projectSection,event) => {
-    event.preventDefault();
+  const Project = (projectSection) => {
+    
     if (projectSection) {
       projectSection.scrollIntoView({ behavior: 'smooth' });
     }
@@ -51,21 +51,21 @@ const Navbar = () => {
           </div>
 
           <div className={`lg:flex hidden`}>
-            <a href="#" className="nav-items" onClick={() => { Project(document.getElementById('Home-secion')) }}>
+            <p className="nav-items" onClick={() => { Project(document.getElementById('Home-secion')) }}>
               Home
-            </a>
-            <a href="#" className="nav-items" onClick={() => { Project(document.getElementById('About-secion')) }}>
+            </p>
+            <p  className="nav-items" onClick={() => { Project(document.getElementById('About-secion')) }}>
               About
-            </a>
-            <a href="#" className="nav-items" onClick={() => { Project(document.getElementById('Project-secion')) }}>
+            </p>
+            <p className="nav-items" onClick={() => { Project(document.getElementById('Project-secion')) }}>
               Project
-            </a>
-            <a href="#" className="nav-items" onClick={() => { Project(document.getElementById('Resume-secion')) }}>
+            </p>
+            <p className="nav-items" onClick={() => { Project(document.getElementById('Resume-secion')) }}>
               Resume
-            </a>
-            <a href="#" className="nav-items" onClick={() => { Project(document.getElementById('Contact-secion')) }}>
+            </p>
+            <p  className="nav-items" onClick={() => { Project(document.getElementById('Contact-secion')) }}>
               Contact
-            </a>
+            </p>
           </div>
         </div>
       </nav>
@@ -90,21 +90,21 @@ const Navbar = () => {
           ✕
         </button>
         <div className='text-center pt-10'>
-          <a href="#" className="nav-items block" onClick={() => { Project(document.getElementById('Home-secion')) }}>
+          <p  className="nav-items block" onClick={() => { Project(document.getElementById('Home-secion')) }}>
             Home
-          </a>
-          <a href="#" className="nav-items  block " onClick={() => { Project(document.getElementById('About-secion')) }}>
+          </p>
+          <p  className="nav-items  block " onClick={() => { Project(document.getElementById('About-secion')) }}>
             About
-          </a>
-          <a href="#" className="nav-items  block" onClick={() => { Project(document.getElementById('Project-secion')) }}>
+          </p>
+          <p  className="nav-items  block" onClick={() => { Project(document.getElementById('Project-secion')) }}>
             Project
-          </a>
-          <a href="#" className="nav-items  block" onClick={() => { Project(document.getElementById('Resume-secion`')) }}>
+          </p>
+          <p  className="nav-items  block" onClick={() => { Project(document.getElementById('Resume-secion`')) }}>
             Resume
-          </a>
-          <a href="#" className="nav-items  block" onClick={() => { Project(document.getElementById('Contact-secion')) }}>
+          </p>
+          <p  className="nav-items  block" onClick={() => { Project(document.getElementById('Contact-secion')) }}>
             Contact
-          </a>
+          </p >
         </div>
       </div>
     </>

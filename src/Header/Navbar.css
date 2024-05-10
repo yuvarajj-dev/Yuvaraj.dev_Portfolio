@@ -9,7 +9,10 @@
     width: 100%;
     background-color: white;
 }
-
+.nav-items:active{
+    text-decoration: underline;
+    transition: text-decoration 0.9s ease; 
+}
 
 .nav-items {
     padding: .5em .8em;
@@ -17,6 +20,7 @@
     text-decoration: none;
     font-size: 16px;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .nav-items::before,

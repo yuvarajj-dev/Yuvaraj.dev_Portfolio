@@ -14,10 +14,10 @@ export default function  Home() {
   }
   return (
     <>
-      <div id="Home-secion " className="bg pb-20 js-scroll pt-10 lg:pb-10 ">
-        <div className="container xl:mx-auto xl:px-52 xl:py-16 xl:flex
-                                  lg:mx-auto lg:px-32 lg:py-16 lg:flex
-                                  md:pt-16  md:mx-auto
+      <div id="Home-secion" className="bg pb-20 js-scroll pt-5 lg:pb-10 ">
+        <div className="container xl:mx-auto xl:px-52 xl:py-10 xl:flex
+                                  lg:mx-auto lg:px-32 lg:py-9 lg:flex
+                                  md:pt-10  md:mx-auto
                                   pt-10  mx-auto
         ">
           {/* blog div for sm-md */}
